@@ -8,7 +8,7 @@
 
 がある。ここは2の方法についての説明とツール置き場。
 
-### 政府統計コードと統計表ID
+**政府統計コードと統計表ID**
 
 eStatで公開されているデータは、「政府統計コード > 統計表ID > No.」 で識別される。たとえば、「平成２７年国勢調査 世界測地系(250Mメッシュ) 　その１　人口等基本集計に関する事項 1次メッシュ　M5035」という表は、「政府統計コード：00200521,  統計表ID：8003001633,  No.：1」である。
 
@@ -24,7 +24,7 @@ eStatで公開されているデータは、「政府統計コード > 統計表
 eStat API (version 3.0) の仕様については、[API仕様書 (ver 3.0)](https://www.e-stat.go.jp/api/api-info/e-stat-manual3-0) を参照。
 
 
-### Requirements
+## Requirements
 
 - Python >= 3.6.9 
 - Python Modules
@@ -35,7 +35,7 @@ eStat API (version 3.0) の仕様については、[API仕様書 (ver 3.0)](http
     - xlrd==1.2.0
     - xlwt==1.3.0
 
-### Usage (workflow)
+## Usage (workflow)
 
 **step 0：eStat API のアプリケーションIDを取得する。**
 

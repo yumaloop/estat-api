@@ -1,5 +1,6 @@
 import urllib
 import requests
+import common
 
 
 class EstatRestAPI_URLParser:
@@ -20,7 +21,7 @@ class EstatRestAPI_URLParser:
 
         # Application ID
         if app_id is None:
-            self.app_id = "65a9e884e72959615c2c7c293ebfaeaebffb6030"
+            self.app_id = common.app_id
         else:
             self.app_id = app_id
 

@@ -2,8 +2,8 @@ import os
 from pprint import pprint
 from estat_api import EstatRestAPI_URLParser
 from io_utils import get_json, download_all_csv, download_csv
+import common
 
-appId = "65a9e884e72959615c2c7c293ebfaeaebffb6030"  # Application ID
 estatapi_url_parser = EstatRestAPI_URLParser()  # URL Parser
 
 
@@ -25,7 +25,7 @@ def search_tables():
         - explanationGetFlg: 解説情報有無(Y or N)
         - ...
     """
-    appId = "65a9e884e72959615c2c7c293ebfaeaebffb6030"  # Application ID
+    appId = common.appId  # Application ID
     params_dict = {
         "appId": appId,
         "lang": "J",

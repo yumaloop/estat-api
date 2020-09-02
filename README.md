@@ -45,20 +45,27 @@ eStat API (version 3.0) の仕様については、[API仕様書 (ver 3.0)](http
 
 APIの細かい使い方は、[API仕様書 (ver 3.0)](https://www.e-stat.go.jp/api/api-info/api-spec) を参照。基本、以下2つのコールができればほとんど困ることはない。
 
-
-
 1. 統計情報取得（getStatsList）
    - URLとパラメータを指定して、条件にあうすべての統計表の情報（ID, 名前, その他）を得る。
      - URL：`EstatRestAPI_URLParser()クラス`の`getStatsListURL()メソッド`を使う。[仕様書の2.1](https://www.e-stat.go.jp/api/api-info/e-stat-manual3-0#api_2_1)を見る
      - パラメータ：[仕様書の3.2](https://www.e-stat.go.jp/api/api-info/e-stat-manual3-0#api_3_2)を見る
+
+   ```python
+   from estat_api import EstatRestApiClient
+   estat_api_client = EstatRestApiClient(app_id= "65a9e884e72959615c2c7c293ebfaeaebffb6030")
+
+   json_dict = estat_api_client.getStatsList(lang="J", surveyYears="2015", statsCode="00200521", searchWord="人口等基本集計", limit=10, format="json")
+   ```
 2. 統計データ取得（getStatsData）
    - URLとパラメータを指定して、条件にあう統計表の生データを得る。
      - URL：`EstatRestAPI_URLParser()クラス`の`getStatsDataURL()メソッド`を使う。[仕様書の2.3](https://www.e-stat.go.jp/api/api-info/e-stat-manual3-0#api_2_3)を見る
      - パラメータ：[仕様書の3.4](https://www.e-stat.go.jp/api/api-info/e-stat-manual3-0#api_3_4)を見る。
+   ```python
+   from estat_api import EstatRestApiClient
+   estat_api_client = EstatRestApiClient(app_id= "65a9e884e72959615c2c7c293ebfaeaebffb6030")
 
-
-
-
+   csv_data= estat_api_client.getStatsData(lang="J", statsDataId="0003142014", limit=10, format="csv")
+   ```
 
 **step 2：Cloud Strage, BigQueryに保存**
 

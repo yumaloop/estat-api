@@ -1,0 +1,427 @@
+{
+  "GET_STATS_LIST": {
+    "RESULT": {
+      "STATUS": 0,
+      "ERROR_MSG": "正常に終了しました。",
+      "DATE": "2020-09-02T14:15:09.957+09:00"
+    },
+    "PARAMETER": {
+      "LANG": "J",
+      "SURVEY_YEARS": 2015,
+      "STATS_CODE": "00200521",
+      "SEARCH_WORD": "人口等基本集計",
+      "DATA_FORMAT": "J",
+      "LIMIT": 10
+    },
+    "DATALIST_INF": {
+      "NUMBER": 61,
+      "RESULT_INF": {
+        "FROM_NUMBER": 1,
+        "TO_NUMBER": 10,
+        "NEXT_KEY": 11
+      },
+      "TABLE_INF": [
+        {
+          "@id": "0003148500",
+          "STAT_NAME": {
+            "@code": "00200521",
+            "$": "国勢調査"
+          },
+          "GOV_ORG": {
+            "@code": "00200",
+            "$": "総務省"
+          },
+          "STATISTICS_NAME": "平成27年国勢調査 人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）",
+          "TITLE": {
+            "@no": "00100",
+            "$": "人口，人口増減(平成22年～27年)，面積，人口密度，世帯数及び世帯数増減(平成22年～27年) 全国(市部・郡部)，都道府県(市部・郡部)，市区町村，平成12年市町村，人口集中地区"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 201510,
+          "OPEN_DATE": "2016-12-16",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "02",
+            "$": "人口・世帯"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "人口"
+          },
+          "OVERALL_TOTAL_NUMBER": 63530,
+          "UPDATED_DATE": "2020-05-22",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "平成27年国勢調査",
+            "TABULATION_SUB_CATEGORY1": "人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "人口，人口増減(平成22年～27年)，面積，人口密度，世帯数及び世帯数増減(平成22年～27年)",
+            "TABLE_SUB_CATEGORY1": "全国(市部・郡部)，都道府県(市部・郡部)，市区町村，平成12年市町村，人口集中地区"
+          }
+        },
+        {
+          "@id": "0003149040",
+          "STAT_NAME": {
+            "@code": "00200521",
+            "$": "国勢調査"
+          },
+          "GOV_ORG": {
+            "@code": "00200",
+            "$": "総務省"
+          },
+          "STATISTICS_NAME": "平成27年国勢調査 人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）",
+          "TITLE": {
+            "@no": "00200",
+            "$": "男女別人口，人口性比及び世帯の種類(2区分)別世帯数，世帯人員 全国(市部･郡部)，都道府県(市部･郡部)，市区町村，平成12年市町村，人口集中地区"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 201510,
+          "OPEN_DATE": "2017-02-17",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "02",
+            "$": "人口・世帯"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "人口"
+          },
+          "OVERALL_TOTAL_NUMBER": 55530,
+          "UPDATED_DATE": "2020-05-21",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "平成27年国勢調査",
+            "TABULATION_SUB_CATEGORY1": "人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "男女別人口，人口性比及び世帯の種類(2区分)別世帯数，世帯人員",
+            "TABLE_SUB_CATEGORY1": "全国(市部･郡部)，都道府県(市部･郡部)，市区町村，平成12年市町村，人口集中地区"
+          }
+        },
+        {
+          "@id": "0003149249",
+          "STAT_NAME": {
+            "@code": "00200521",
+            "$": "国勢調査"
+          },
+          "GOV_ORG": {
+            "@code": "00200",
+            "$": "総務省"
+          },
+          "STATISTICS_NAME": "平成27年国勢調査 人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）",
+          "TITLE": {
+            "@no": "00310",
+            "$": "年齢(各歳)，男女別人口，年齢別割合，平均年齢及び年齢中位数(総数及び日本人) 全国(市部・郡部)，都道府県(市部・郡部)，21大都市，特別区，人口50万以上市，人口集中地区"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 201510,
+          "OPEN_DATE": "2016-12-27",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "02",
+            "$": "人口・世帯"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "人口"
+          },
+          "OVERALL_TOTAL_NUMBER": 219600,
+          "UPDATED_DATE": "2020-05-22",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "平成27年国勢調査",
+            "TABULATION_SUB_CATEGORY1": "人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "年齢(各歳)，男女別人口，年齢別割合，平均年齢及び年齢中位数(総数及び日本人)",
+            "TABLE_SUB_CATEGORY1": "全国(市部・郡部)，都道府県(市部・郡部)，21大都市，特別区，人口50万以上市，人口集中地区"
+          }
+        },
+        {
+          "@id": "0003148521",
+          "STAT_NAME": {
+            "@code": "00200521",
+            "$": "国勢調査"
+          },
+          "GOV_ORG": {
+            "@code": "00200",
+            "$": "総務省"
+          },
+          "STATISTICS_NAME": "平成27年国勢調査 人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）",
+          "TITLE": {
+            "@no": "00320",
+            "$": "年齢(各歳)，男女別人口，年齢別割合，平均年齢及び年齢中位数(総数及び日本人) 全国(市部・郡部)，都道府県(市部・郡部)，市区町村，平成12年市町村，人口集中地区"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 201510,
+          "OPEN_DATE": "2016-12-16",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "02",
+            "$": "人口・世帯"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "人口"
+          },
+          "OVERALL_TOTAL_NUMBER": 4531248,
+          "UPDATED_DATE": "2020-05-22",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "平成27年国勢調査",
+            "TABULATION_SUB_CATEGORY1": "人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "年齢(各歳)，男女別人口，年齢別割合，平均年齢及び年齢中位数(総数及び日本人)",
+            "TABLE_SUB_CATEGORY1": "全国(市部・郡部)，都道府県(市部・郡部)，市区町村，平成12年市町村，人口集中地区"
+          }
+        },
+        {
+          "@id": "0003149860",
+          "STAT_NAME": {
+            "@code": "00200521",
+            "$": "国勢調査"
+          },
+          "GOV_ORG": {
+            "@code": "00200",
+            "$": "総務省"
+          },
+          "STATISTICS_NAME": "平成27年国勢調査 人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）",
+          "TITLE": {
+            "@no": "00410",
+            "$": "出生の月(4区分)，年齢(各歳)，男女別人口(総数及び日本人) 全国(市部・郡部)，人口集中地区"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 201510,
+          "OPEN_DATE": "2017-02-28",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "02",
+            "$": "人口・世帯"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "人口"
+          },
+          "OVERALL_TOTAL_NUMBER": 16272,
+          "UPDATED_DATE": "2020-05-22",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "平成27年国勢調査",
+            "TABULATION_SUB_CATEGORY1": "人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "出生の月(4区分)，年齢(各歳)，男女別人口(総数及び日本人)",
+            "TABLE_SUB_CATEGORY1": "全国(市部・郡部)，人口集中地区"
+          }
+        },
+        {
+          "@id": "0003149861",
+          "STAT_NAME": {
+            "@code": "00200521",
+            "$": "国勢調査"
+          },
+          "GOV_ORG": {
+            "@code": "00200",
+            "$": "総務省"
+          },
+          "STATISTICS_NAME": "平成27年国勢調査 人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）",
+          "TITLE": {
+            "@no": "00420",
+            "$": "出生の月(4区分)，年齢(各歳)，男女別人口(総数及び日本人) 全国(市部・郡部)，都道府県(市部・郡部)，21大都市・区，県庁所在市，人口20万以上市，人口集中地区"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 201510,
+          "OPEN_DATE": "2017-02-28",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "02",
+            "$": "人口・世帯"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "人口"
+          },
+          "OVERALL_TOTAL_NUMBER": 3014604,
+          "UPDATED_DATE": "2020-05-22",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "平成27年国勢調査",
+            "TABULATION_SUB_CATEGORY1": "人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "出生の月(4区分)，年齢(各歳)，男女別人口(総数及び日本人)",
+            "TABLE_SUB_CATEGORY1": "全国(市部・郡部)，都道府県(市部・郡部)，21大都市・区，県庁所在市，人口20万以上市，人口集中地区"
+          }
+        },
+        {
+          "@id": "0003149862",
+          "STAT_NAME": {
+            "@code": "00200521",
+            "$": "国勢調査"
+          },
+          "GOV_ORG": {
+            "@code": "00200",
+            "$": "総務省"
+          },
+          "STATISTICS_NAME": "平成27年国勢調査 人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）",
+          "TITLE": {
+            "@no": "00430",
+            "$": "出生の月(4区分)，年齢(5歳階級)，男女別人口(総数及び日本人) 全国(市部・郡部)，都道府県(市部・郡部)，市区町村，人口集中地区"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 201510,
+          "OPEN_DATE": "2017-02-28",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "02",
+            "$": "人口・世帯"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "人口"
+          },
+          "OVERALL_TOTAL_NUMBER": 2585844,
+          "UPDATED_DATE": "2020-05-22",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "平成27年国勢調査",
+            "TABULATION_SUB_CATEGORY1": "人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "出生の月(4区分)，年齢(5歳階級)，男女別人口(総数及び日本人)",
+            "TABLE_SUB_CATEGORY1": "全国(市部・郡部)，都道府県(市部・郡部)，市区町村，人口集中地区"
+          }
+        },
+        {
+          "@id": "0003149791",
+          "STAT_NAME": {
+            "@code": "00200521",
+            "$": "国勢調査"
+          },
+          "GOV_ORG": {
+            "@code": "00200",
+            "$": "総務省"
+          },
+          "STATISTICS_NAME": "平成27年国勢調査 人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）",
+          "TITLE": {
+            "@no": "00510",
+            "$": "配偶関係(4区分)，年齢(各歳)，男女別15歳以上人口，配偶関係別割合及び平均年齢(総数及び日本人) 全国(市部・郡部)，都道府県(市部・郡部)，21大都市・区，県庁所在市，人口20万以上市，人口集中地区"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 201510,
+          "OPEN_DATE": "2016-12-27",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "02",
+            "$": "人口・世帯"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "人口"
+          },
+          "OVERALL_TOTAL_NUMBER": 4438980,
+          "UPDATED_DATE": "2020-05-22",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "平成27年国勢調査",
+            "TABULATION_SUB_CATEGORY1": "人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "配偶関係(4区分)，年齢(各歳)，男女別15歳以上人口，配偶関係別割合及び平均年齢(総数及び日本人)",
+            "TABLE_SUB_CATEGORY1": "全国(市部・郡部)，都道府県(市部・郡部)，21大都市・区，県庁所在市，人口20万以上市，人口集中地区"
+          }
+        },
+        {
+          "@id": "0003148541",
+          "STAT_NAME": {
+            "@code": "00200521",
+            "$": "国勢調査"
+          },
+          "GOV_ORG": {
+            "@code": "00200",
+            "$": "総務省"
+          },
+          "STATISTICS_NAME": "平成27年国勢調査 人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）",
+          "TITLE": {
+            "@no": "00520",
+            "$": "配偶関係（４区分），年齢（５歳階級），男女別15歳以上人口，配偶関係別割合及び平均年齢（総数及び日本人） 全国(市部・郡部)，都道府県(市部・郡部)，市区町村，人口集中地区"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 201510,
+          "OPEN_DATE": "2016-12-16",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "02",
+            "$": "人口・世帯"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "人口"
+          },
+          "OVERALL_TOTAL_NUMBER": 4309740,
+          "UPDATED_DATE": "2020-05-22",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "平成27年国勢調査",
+            "TABULATION_SUB_CATEGORY1": "人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "配偶関係（４区分），年齢（５歳階級），男女別15歳以上人口，配偶関係別割合及び平均年齢（総数及び日本人）",
+            "TABLE_SUB_CATEGORY1": "全国(市部・郡部)，都道府県(市部・郡部)，市区町村，人口集中地区"
+          }
+        },
+        {
+          "@id": "0003152500",
+          "STAT_NAME": {
+            "@code": "00200521",
+            "$": "国勢調査"
+          },
+          "GOV_ORG": {
+            "@code": "00200",
+            "$": "総務省"
+          },
+          "STATISTICS_NAME": "平成27年国勢調査 人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）",
+          "TITLE": {
+            "@no": "00600",
+            "$": "世帯の種類(2区分)，世帯の家族類型(16区分)，施設等の世帯の種類(6区分)，配偶関係(4区分)，年齢(5歳階級)，男女別世帯人員及び平均年齢(3世代世帯－特掲) 全国(市部・郡部)，都道府県(市部・郡部)，21大都市，特別区，人口50万以上市，人口集中地区"
+          },
+          "CYCLE": "-",
+          "SURVEY_DATE": 201510,
+          "OPEN_DATE": "2017-02-28",
+          "SMALL_AREA": 0,
+          "COLLECT_AREA": "該当なし",
+          "MAIN_CATEGORY": {
+            "@code": "02",
+            "$": "人口・世帯"
+          },
+          "SUB_CATEGORY": {
+            "@code": "01",
+            "$": "人口"
+          },
+          "OVERALL_TOTAL_NUMBER": 3030480,
+          "UPDATED_DATE": "2020-05-22",
+          "STATISTICS_NAME_SPEC": {
+            "TABULATION_CATEGORY": "平成27年国勢調査",
+            "TABULATION_SUB_CATEGORY1": "人口等基本集計（男女・年齢・配偶関係，世帯の構成，住居の状態など）"
+          },
+          "DESCRIPTION": "",
+          "TITLE_SPEC": {
+            "TABLE_NAME": "世帯の種類(2区分)，世帯の家族類型(16区分)，施設等の世帯の種類(6区分)，配偶関係(4区分)，年齢(5歳階級)，男女別世帯人員及び平均年齢(3世代世帯－特掲)",
+            "TABLE_SUB_CATEGORY1": "全国(市部・郡部)，都道府県(市部・郡部)，21大都市，特別区，人口50万以上市，人口集中地区"
+          }
+        }
+      ]
+    }
+  }
+}

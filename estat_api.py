@@ -86,7 +86,7 @@ class EstatRestApiClient:
             res = self._request_get(endpoint, **params)
             return res.content.decode("utf-8")
 
-    def getMetaInfoURL(self, params_dict, format="csv", **kwargs):
+    def getMetaInfoURL(self, format="csv", **kwargs):
         """
         2.2 メタ情報取得 (HTTP GET)
         """
@@ -112,7 +112,7 @@ class EstatRestApiClient:
             res = self._request_get(endpoint, **params)
             return res.content.decode("utf-8")
 
-    def getStatsData(self, params_dict, format="csv", **kwargs):
+    def getStatsData(self, format="csv", **kwargs):
         """
         2.3 統計データ取得 (HTTP GET)
 
